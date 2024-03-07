@@ -9,41 +9,19 @@ LAUNCH INSTRUCTIONS:
 use the command "node server.js" in the terminal in the "chord_transposer" directory
 
 TESTING INSTRUCTIONS:
-visit the following URL in your chrome browser:
-http://localhost:3000/index.html
+
 
 To shutdown server press "CTRL+C" in the terminal
-## Files
 
-- `defs.h`
-- `ghost.c`
-- `house.c`
-- `hunter.c`
-- `logger.c`
-- `main.c`
-- `makefile`
-- `room.c`
-- `utils.c`
-- `README.txt`
-
-## Compiling
-
-To compile the program, run the following command in the terminal:
-
-```bash
-make 
-or 
-gcc -Wall -Wextra -o phasmo defs.h ghost.c house.c hunter.c main.c room.c utils.c logger.c -lpthread
-```
 ## Running
-To run the program, execute the following command in the terminal:
+To run the server, execute the following command in the terminal in this directory (Chord-Transposer):
 ```bash
-./phasmo
+node server.js
 ```
-## Cleaning
-To clean the project directory and remove object and executable files, use the following command:
-```bash
-make clean
-```
+## Shutting down
+To shutdown the server press CTRL+C in the command terminal on Windows or MacOS.
+
 ## Usage
-Once the program is running, you will be prompted to input the names for the four hunters. Afterward, the simulation results will be displayed on the screen.
+Once the server is running via the Running instructions, visit the following URL in your chrome browser:
+http://localhost:3000/index.html
+You will then be able to type in one of the song names from any .txt file in the songs directory. Feel free to add more songs in the directory, following the same Chord Pro Format as the others.
