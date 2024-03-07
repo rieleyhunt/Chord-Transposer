@@ -4,14 +4,6 @@
 This chord transposer website turns songs from Chord Pro Format into songs that can be read easily by a musician.
 As a bonus, the user can also tranpose the chords of the song if they wish to play in a different key that might
 be easier for them or a vocalist.
-## Overview
-LAUNCH INSTRUCTIONS:
-use the command "node server.js" in the terminal in the "chord_transposer" directory
-
-TESTING INSTRUCTIONS:
-
-
-To shutdown server press "CTRL+C" in the terminal
 
 ## Running
 To run the server, execute the following command in the terminal in this directory (Chord-Transposer):
