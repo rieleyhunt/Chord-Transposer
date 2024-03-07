@@ -1,4 +1,4 @@
-# Chord-Transposer
+# Chord Transposer
 
 ## Purpose?
 This chord transposer website turns songs from Chord Pro Format into songs that can be read easily by a musician.
