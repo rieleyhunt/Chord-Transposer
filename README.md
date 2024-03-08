@@ -5,6 +5,10 @@ This chord transposer website turns songs from Chord Pro Format into songs that 
 As a bonus, the user can also tranpose the chords of the song if they wish to play in a different key that might
 be easier for them or a vocalist.
 
+![Converting](Picture2.png)
+![Transposing](Picture1.png)
+Transposed down by two semi-tones
+
 ## Running
 To run the server, execute the following command in the terminal in this directory (Chord-Transposer):
 ```bash
